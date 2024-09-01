@@ -50,6 +50,29 @@
     <section class="bg-slate-800 py-[60px]">
       <div class="container">
         <h2 class="text-center text-[28px] font-medium text-white hidden">Film's List</h2>
+        <form action="#" method="post" class="flex items-center justify-around pb-12">
+          <input type="search" placeholder="Search" aria-label="Search input" class="rounded-[8px] py-[10px] placeholder:text-[18px] px-2 w-[280px] border-none">
+          <select name="genre" id="genre" class="py-[10px] rounded-[8px] px-2 w-[300px] border-none">
+            <option value="choose the genre" selected hidden>Choose the genre</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="adventure">Adventure</option>
+            <option value="science fiction">Science Fiction</option>
+            <option value="thriller">Thriller</option>
+            <option value="horror">Horror</option>
+            <option value="animation">Animation</option>
+            <option value="family">Family</option>
+            <option value="documentary">Documentary</option>
+            <option value="mystery">Mystery</option>
+            <option value="drama">Drama</option>
+            <option value="tv movie">TV Movie</option>
+            <option value="music">Music</option>
+            <option value="crime">Crime</option>
+            <option value="history">History</option>
+            <option value="romance">Romance</option>
+          </select>
+        </form>
         <ul class="js-film-list flex items-center flex-wrap justify-between gap-y-6"></ul>
       </div>
     </section>
